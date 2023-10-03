@@ -5,5 +5,5 @@ a=a-b
 b=a+b
 a=b-a
 
-print(a)
-print(b)
+print("A=",a)
+print("B=",b)
