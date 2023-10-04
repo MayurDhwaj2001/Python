@@ -9,3 +9,8 @@ for j in name:
 
 for k in range(11, 21, 1):
     print(k)
+
+i = 0
+while i < 5:
+    print("Hello")
+    i += 1
