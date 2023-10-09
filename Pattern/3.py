@@ -11,7 +11,11 @@
 #             print(" ", end="")
 def pattern(n):
     for col in range(n):
-        for row in range
+        for _ in range(col):
+            print(" ", end="")
+        for _ in range(n):
+            print("*", end="")
+        print()
 
 
 pattern(4)

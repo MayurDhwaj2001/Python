@@ -1,16 +1,18 @@
-#    ****
-#   ****
-#  ****
-# ****
+#    *
+#   * *
+#  *   *
+# *******
 
 def pattern(n):
-    m = n
+    s = n
+    p = 1
     for row in range(n):
-        m -= 1
-        for _ in range(m):
+        s -= 1
+        for col in range(s):
             print(" ", end="")
-        for _ in range(n):
+        for top in range(p):
             print("*", end="")
+
         print()
 
 
